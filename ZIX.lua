@@ -143,7 +143,6 @@ pcall(function()
    local response = request(abcdef)
    if response and response.Success then
       print("LMR ON TOP")
-
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
