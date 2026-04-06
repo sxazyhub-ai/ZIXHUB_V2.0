@@ -22,7 +22,7 @@ local displayName = player.DisplayName or player.Name
 local window = library:AddWindow("ZIX HUB - PUBLIC" .. displayName, {
     main_color = Color3.fromRGB(75, 0, 130),
     min_size = Vector2.new(400, 870),
-    can_resize = true,
+    can_resize = false,
 })
 
 local AutoFarm = window:AddTab("Farm")
