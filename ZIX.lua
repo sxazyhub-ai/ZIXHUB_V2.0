@@ -16,7 +16,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local title = ("ZIX Hub | Hello -%s"):format(displayName)
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/UserTy12008/Ty/refs/heads/main/Lybrery",true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sxazyhub-ai/librery.v1/refs/heads/main/librery.lua",true))()
 
 local window = library:AddWindow(title, {
     main_color = Color3.fromRGB(128, 0, 255),
